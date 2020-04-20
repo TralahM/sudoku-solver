@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='sudoku-solver-tek',
-    version='1.0',
+    version='1.1',
     scripts=['sudoku-solver'],
     author="Tralah M Brian",
     author_email="musyoki.brian@tralahtek.com",
