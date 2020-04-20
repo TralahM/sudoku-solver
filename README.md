@@ -52,7 +52,7 @@ python solver.py -f puzzles/sample_sudoku.csv
 ## Install the Script from pypi using pip
 
 ```console
-pip install sudoku-solver
+pip install sudoku-solver-tek
 sudoku-solver -f somepuzzle.csv
 ```
 

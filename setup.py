@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='sudoku-solver',
+    name='sudoku-solver-tek',
     version='1.0',
     scripts=['sudoku-solver'],
     author="Tralah M Brian",
