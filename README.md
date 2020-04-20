@@ -1,4 +1,3 @@
-
 [![Build Status](https://travis-ci.com/TralahM/sudoku-solver.svg?branch=master)](https://travis-ci.com/TralahM/sudoku-solver)
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![Organization](https://img.shields.io/badge/Org-TralahTek-blue.svg)](https://github.com/TralahTek)
@@ -18,18 +17,43 @@
 [![TralahM](https://img.shields.io/badge/Maintainer-TralahM-green.svg?style=for-the-badge)](https://github.com/TralahM)
 
 # Documentation
+Solve Sudoku Puzzles with this python script
+
+The Script takes a csv file as input as prints out the solution to the sudoku puzzle to the console.
+The Csv must be of 9 lines total no blank lines and the values are separated only by commas(no spaces).
+Empty cells are represented with a zero.
+
+## Example File
+
+```csv
+3,0,6,5,0,8,4,0,0
+5,2,0,0,0,0,0,0,0
+0,8,7,0,0,0,0,3,1
+0,0,3,0,1,0,0,8,0
+9,0,0,8,6,3,0,0,5
+0,5,0,0,9,0,6,0,0
+1,3,0,0,0,0,2,5,0
+0,0,0,0,0,0,0,7,4
+0,0,5,2,0,6,3,0,0
+```
 
 [Read the Docs](https://sudoku-solver.readthedocs.io)
-# Dependencies
-
-# How to Install
 
 
-## Building from Source for Developers
 
-```Bash
+## Running and Installation
+
+```console
 git clone https://github.com/TralahM/sudoku-solver.git
 cd sudoku-solver
+python solver.py -f puzzles/sample_sudoku.csv
+```
+
+## Install the Script from pypi using pip
+
+```console
+pip install sudoku-solver
+sudoku-solver -f somepuzzle.csv
 ```
 
 # Contributing
