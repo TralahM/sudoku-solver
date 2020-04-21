@@ -49,6 +49,10 @@ cd sudoku-solver
 python solver.py -f puzzles/sample_sudoku.csv
 ```
 
+### Output
+
+![Output](runoutput.png)
+
 ## Install the Script from pypi using pip
 
 ```console
