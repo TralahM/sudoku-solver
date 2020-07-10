@@ -1,63 +1,36 @@
+
 [![Build Status](https://travis-ci.com/TralahM/sudoku-solver.svg?branch=master)](https://travis-ci.com/TralahM/sudoku-solver)
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+[![Build status](https://ci.appveyor.com/api/projects/status/yvvmq5hyf7hj743a?svg=true)](https://ci.appveyor.com/project/TralahM/sudoku-solver)
+[![Build status](https://ci.appveyor.com/api/projects/status/yvvmq5hyf7hj743a/branch/master?svg=true)](https://ci.appveyor.com/project/TralahM/sudoku-solver/branch/master)
+[![Documentation Status](https://readthedocs.org/projects/sudoku-solver/badge/?version=latest)](https://sudoku-solver.readthedocs.io/en/latest/?badge=latest)
+[![License: GPLV2](https://img.shields.io/badge/License-GPLV2-green.svg)](https://opensource.org/licenses/GPLV2)
 [![Organization](https://img.shields.io/badge/Org-TralahTek-blue.svg)](https://github.com/TralahTek)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![HitCount](http://hits.dwyl.io/TralahM/sudoku-solver.svg)](http://dwyl.io/TralahM/sudoku-solver)
-[![Inline Docs](http://inch-ci.org/github/TralahM/sudoku-solver.svg?branch=master)](http://inch-ci.org/github/TralahM/sudoku-solver)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/TralahM/pull/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://gitHub.com/TralahM/sudoku-solver/pull/)
-[![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/TralahM/sudoku-solver).
+[![Views](http://hits.dwyl.io/TralahM/sudoku-solver.svg)](http://dwyl.io/TralahM/sudoku-solver)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://github.com/TralahM/sudoku-solver/pull/)
+[![GitHub pull-requests](https://img.shields.io/badge/Issues-pr-red.svg?style=flat-square)](https://github.com/TralahM/sudoku-solver/pull/)
+[![Language](https://img.shields.io/badge/Language-Python-3572A5.svg)](https://github.com/TralahM)
 
 # sudoku-solver.
 
-# Description
 
+[![TralahTek](https://img.shields.io/badge/Organization-TralahTek-black.svg?style=for-the-badge)](https://github.com/TralahTek)
 [![TralahM](https://img.shields.io/badge/Engineer-TralahM-blue.svg?style=for-the-badge)](https://github.com/TralahM)
 [![TralahM](https://img.shields.io/badge/Maintainer-TralahM-green.svg?style=for-the-badge)](https://github.com/TralahM)
 
 # Documentation
-Solve Sudoku Puzzles with this python script
 
-The Script takes a csv file as input as prints out the solution to the sudoku puzzle to the console.
-The Csv must be of 9 lines total no blank lines and the values are separated only by commas(no spaces).
-Empty cells are represented with a zero.
+[![Documentation](https://img.shields.io/badge/Docs-sudoku-solver-blue.svg?style=for-the-badge)](https://github.com/TralahM/sudoku-solver)
 
-## Example File
-
-```csv
-3,0,6,5,0,8,4,0,0
-5,2,0,0,0,0,0,0,0
-0,8,7,0,0,0,0,3,1
-0,0,3,0,1,0,0,8,0
-9,0,0,8,6,3,0,0,5
-0,5,0,0,9,0,6,0,0
-1,3,0,0,0,0,2,5,0
-0,0,0,0,0,0,0,7,4
-0,0,5,2,0,6,3,0,0
+# How to Install
+```bash
+# In terminal do:
 ```
 
-[Read the Docs](https://sudoku-solver.readthedocs.io)
-
-
-
-## Running and Installation
+## Building from Source for Developers
 
 ```console
-git clone https://github.com/TralahM/sudoku-solver.git
-cd sudoku-solver
-python solver.py -f puzzles/sample_sudoku.csv
-```
-
-### Output
-
-![Output](runoutput.png)
-
-## Install the Script from pypi using pip
-
-```console
-pip install sudoku-solver-tek
-sudoku-solver -f somepuzzle.csv
+$ git clone https://github.com/TralahM/sudoku-solver.git
+$ cd sudoku-solver
 ```
 
 # Contributing
@@ -74,6 +47,16 @@ sudoku-solver -f somepuzzle.csv
 [Read the license here](LICENSE)
 
 
-# Acknowledgements
+# Self-Promotion
+
+[![TralahM](https://img.shields.io/badge/Twitter-TralahM-blue.svg?style=for-the-badge)](https://twitter.com/TralahM)
+[![TralahM](https://img.shields.io/badge/Github-TralahM-black.svg?style=for-the-badge)](https://github.com/TralahM)
+[![TralahM](https://img.shields.io/badge/Kaggle-TralahM-purple.svg?style=for-the-badge)](https://kaggle.com/TralahM)
+[![TralahM](https://img.shields.io/badge/LinkedIn-TralahM-red.svg?style=for-the-badge)](https://linkedin.com/in/TralahM)
+
+
+[![Blog](https://img.shields.io/badge/Blog-tralahm.tralahtek.com-blue.svg?style=for-the-badge)](https://tralahm.tralahtek.com)
+
+[![TralahTek](https://img.shields.io/badge/Organization-TralahTek-cyan.svg?style=for-the-badge)](https://tralahtek.com)
 
 
